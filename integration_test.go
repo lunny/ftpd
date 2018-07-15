@@ -93,7 +93,7 @@ func TestRclone(t *testing.T) {
 	// Run the ftp tests with an on the fly remote
 	args := []string{"test"}
 	if testing.Verbose() {
-		args = append(args, "-v")
+		args = append(args, "-v", "-verbose")
 	}
 
 	//Retrieve rclone
