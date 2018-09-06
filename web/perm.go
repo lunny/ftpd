@@ -34,7 +34,7 @@ func (c *PermAction) Get() error {
 		if err != nil {
 			return err
 		}
-		parent = path.Dir(p)
+		parent = p
 	} else {
 		parent = "/"
 		p = "/"
